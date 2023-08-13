@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
-import Hello from './Components/Hello'
+import Cards from './Components/Cards'
+import { robots } from './robots'
 import './index.css'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
 	<React.StrictMode>
-		<Hello />
+		<Cards robots={robots}/>
 	</React.StrictMode>
 );
