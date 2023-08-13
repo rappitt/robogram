@@ -4,4 +4,11 @@
 
 body {
 	background: #212529;
+	box-sizing: border-box;
+}
+.hover-trigger{
+	transition: all 300ms ease;
+}
+.hover-trigger:hover .hover-target {
+   	scale: 1.05;
 }
