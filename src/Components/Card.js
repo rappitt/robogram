@@ -9,7 +9,7 @@ const Card = ({id, name, email}) => {
 				<a href="mailto:{email}" className="mb-2 text-xs">{email}</a>
 			</div>
 			<div className="image min-w-fit object-contain mb-4 rounded-full bg-indigo-200 overflow-hidden">
-				<img className="mx-auto hover:scale-105 transition duration-300 delay-100 hover-target" src={`https://robohash.org/${id}?size=100x100`} alt="robot" />
+				<img className="mx-auto hover-target" src={`https://robohash.org/${id}?size=100x100`} alt="robot" />
 			</div>
 		</div>
 	);
